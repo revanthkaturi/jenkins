@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 12001
-ADD target/mbblab3-0.0.1-SNAPSHOT.jar mbblab3-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java", "-jar", "/mbblab3-0.0.1-SNAPSHOT.jar"]
+ADD target/testjenkin-1.0-SNAPSHOT testjenkin-1.0-SNAPSHOT
+ENTRYPOINT ["java", "-jar", "/testjenkin-1.0-SNAPSHOT"]
